@@ -8,7 +8,7 @@ import streamlit as st
 import matplotlib as mt
 
 
-st.title("Capstone - Case Study Bellabeat")
+st.title("Bellabeat Wellness Tracker: Usage Insights and Analysis")
 
 # importing tables to pd's df
 daily_activity = pd.read_csv("https://raw.githubusercontent.com/aungheinko/bellabeat_streamlit_app/main/dailyActivity_merged.csv")
