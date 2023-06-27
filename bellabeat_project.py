@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
-from datetime import datetime
+import matplotlib
+import matplotlib.pyplot as plt
+import datetime
 import seaborn as sns
 import streamlit as st
 import matplotlib as mt
