@@ -11,9 +11,9 @@ import matplotlib as mt
 st.title("Capstone - Case Study Bellabeat")
 
 # importing tables to pd's df
-daily_activity = pd.read_csv(r"D:\CapstoneProject\Fitabase_Data\dailyActivity_merged.csv")
-hourly_steps = pd.read_csv(r"D:\CapstoneProject\Fitabase_Data\hourlySteps_merged.csv")
-daily_sleep = pd.read_csv(r"D:\CapstoneProject\Fitabase_Data\sleepDay_merged.csv")
+daily_activity = pd.read_csv("https://raw.githubusercontent.com/aungheinko/bellabeat_streamlit_app/main/dailyActivity_merged.csv")
+hourly_steps = pd.read_csv("https://raw.githubusercontent.com/aungheinko/bellabeat_streamlit_app/main/hourlySteps_merged.csv")
+daily_sleep = pd.read_csv("https://raw.githubusercontent.com/aungheinko/bellabeat_streamlit_app/main/sleepDay_merged.csv")
 
 # cleaning duplitcates
 # print(daily_activity.duplicated().sum(),
