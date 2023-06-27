@@ -91,9 +91,6 @@ minutes_worn['percent_minutes_worn'] = (minutes_worn['total_minutes_worn'] / 144
 # Define worn category based on percentage of minutes worn
 minutes_worn['worn'] = minutes_worn['percent_minutes_worn'].apply(lambda x: 'All day' if x == 100 else 'More than half day' if 50 <= x < 100 else 'Less than half day')
 
-# Display the head of the DataFrame
-import pandas as pd
-
 # Calculate percentage of minutes worn for all users
 minutes_worn_percent = minutes_worn.groupby('worn').size().reset_index(name='total')
 minutes_worn_percent['totals'] = minutes_worn_percent['total'].sum()
