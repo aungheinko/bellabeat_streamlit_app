@@ -129,7 +129,7 @@ minutes_worn_lowuse['worn'] = pd.Categorical(minutes_worn_lowuse['worn'],
                                              ordered=True)
 
 
-tab1, tab2, tab3, tab4 = st.tabs(["Ask Phase","Analyze Phase", "Share Phase", "Act Phase"])
+tab1, tab2, tab3, tab4 = st.tabs(["Process Phase","Analyze Phase", "Share Phase", "Act Phase"])
 
 with tab1:
     markdown_text = """
